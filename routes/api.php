@@ -19,5 +19,5 @@ Route::middleware('auth:api')->get('/user', function (Request $request) {
 });
 
 Route::get('test', function () {
-    return 'Hola cara de bola';
+    return 'Hola cara de bola nuevo';
 });
